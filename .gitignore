@@ -34,3 +34,7 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Microsoft Office lock files
+~$*.pptx
+~$*.docx
+~$*.xlsx

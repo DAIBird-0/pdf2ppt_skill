@@ -30,6 +30,8 @@ SKIP_DIRS = {
     "node_modules",
 }
 
+SKIP_FILE_PREFIXES = ("~$",)
+
 SELF_PATH = "scripts/audit_privacy.py"
 
 PERSONAL_PATTERNS = [
@@ -152,7 +154,9 @@ def iter_files(root: Path) -> list[Path]:
     return [
         path
         for path in root.rglob("*")
-        if path.is_file() and not is_skipped(path.relative_to(root))
+        if path.is_file()
+        and not is_skipped(path.relative_to(root))
+        and not path.name.startswith(SKIP_FILE_PREFIXES)
     ]
 
 
