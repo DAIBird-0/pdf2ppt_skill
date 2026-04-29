@@ -4,7 +4,7 @@
 
 这个 skill 不只是总结论文。它会先读论文、生成文献理解矩阵、图表映射和逐页 PPT 方案，等你确认后再生成可编辑 `.pptx`、逐页讲稿、预览图和中间分析文件。
 
-![Workflow](marketing/images/workflow.png)
+![Workflow](examples/ellmob-demo/workflow.png)
 
 ## Highlights
 
