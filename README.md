@@ -22,7 +22,7 @@
 
 下面是基于公开论文 ELLMob 的展示案例。该 demo 只展示输出效果，论文内容版权归原作者/权利方，详见 `THIRD_PARTY_NOTICES.md`。
 
-![ELLMob demo preview](marketing/images/ellmob-demo-preview.png)
+![ELLMob demo preview](examples/ellmob-demo/preview.png)
 
 ## Install
 
