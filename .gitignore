@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local paper inputs and generated outputs
+*.pdf
+*.ppt
+work/
+outputs/
+generated/
+extracted/
+tmp/
+temp/
+
+# Generated presentation previews that are not curated repo assets
+preview/
+renders/
+*.layout.json
+
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

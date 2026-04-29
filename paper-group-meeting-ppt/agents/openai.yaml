@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Group PPT"
+  short_description: "Turn a paper PDF into a confirmed-plan, template-driven group-meeting PPT with notes"
+  default_prompt: "使用 $paper-group-meeting-ppt，根据这篇论文 PDF 制作中文组会文献分享 PPT。请先确认我是否提供模板；若不提供，使用内置通用学术默认模板；若提供，再询问是否叠加个人版式习惯库。然后输出文献阅读矩阵、图表映射和逐页 PPT 方案，等我确认后再生成 PPT，每页写入 speaker notes。默认可使用本地论文小图标库做视觉增强；如我要求关闭图标增强，请跳过。"

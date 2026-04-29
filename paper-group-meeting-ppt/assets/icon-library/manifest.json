@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "description": "Reusable icon registry for paper-group-meeting-ppt. Populate this with approved icons harvested from historical extracted/figures directories.",
+  "source_priority": [
+    "current_paper_extracted_figures",
+    "historical_harvested_icons",
+    "current_paper_manual_crop",
+    "ppt_native_fallback"
+  ],
+  "keyword_groups": {
+    "dataset": [
+      "dataset",
+      "data",
+      "trajectory",
+      "mobility",
+      "record",
+      "map",
+      "grid",
+      "phone",
+      "数据集",
+      "轨迹",
+      "移动性"
+    ],
+    "utility": [
+      "utility",
+      "metric",
+      "performance",
+      "score",
+      "distance",
+      "rank",
+      "chart",
+      "效用",
+      "指标",
+      "性能"
+    ],
+    "privacy": [
+      "privacy",
+      "private",
+      "dp",
+      "pate",
+      "noise",
+      "shield",
+      "lock",
+      "隐私",
+      "噪声",
+      "安全"
+    ],
+    "method": [
+      "method",
+      "framework",
+      "pipeline",
+      "generator",
+      "auditor",
+      "server",
+      "flow",
+      "方法",
+      "框架",
+      "流程"
+    ],
+    "experiment": [
+      "experiment",
+      "benchmark",
+      "ablation",
+      "baseline",
+      "table",
+      "实验",
+      "对比",
+      "消融"
+    ],
+    "conclusion": [
+      "conclusion",
+      "limitation",
+      "future",
+      "summary",
+      "flag",
+      "结论",
+      "局限",
+      "展望"
+    ]
+  },
+  "icons": []
+}
